@@ -12,7 +12,11 @@ This project focuses on the detection of Irish Sign Language (ISL) gestures usin
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LrL-Mh7U7eu4z4q6JKNw1FyW-pReNe_A?usp=sharing)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Lpq5omFG8CKijPO9cJHYtq6qexHtkmwF?authuser=1#scrollTo=WSjsc5OKWK7o)
+## Open RealTime Detection Transformer(RT-DETR) ipynb file in Google Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Lpq5omFG8CKijPO9cJHYtq6qexHtkmwF?usp=sharing)
+## Open YOLOv8 ipynb file in Google Colab
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1c4fFqwiA4hFXdhwVJQyjsdMrl0Jsx8BT?usp=sharing)
+
 ## Table of Contents
 - [Introduction](#introduction)
 - [Methodology](#methodology)
