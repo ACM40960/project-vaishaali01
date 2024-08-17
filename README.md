@@ -65,11 +65,10 @@ The data is simply structured in a different way while running our sequential CN
 ### RT-DETR Results
 - mAP50 value of 0.94.
 - Higher false positives for "Water" and "Thank You" classes compared to other classes.
-<img src="https://github.com/user-attachments/assets/813aed5f-60e5-4889-8f69-abc7de7431ca" width="480" height="480">
-<img src="https://github.com/user-attachments/assets/8d0328fd-e990-4e86-a6c1-43f27d21ab5e" width="480" height="480">
 <img src="https://github.com/user-attachments/assets/7eaa7887-4c04-439b-a0f9-2e9e13d795da" width="480" height="480">
 <img src="https://github.com/user-attachments/assets/0159d174-e85a-4db1-932e-546366259437" width="480" height="480">
-
+<img src="https://github.com/user-attachments/assets/813aed5f-60e5-4889-8f69-abc7de7431ca" width="480" height="480">
+<img src="https://github.com/user-attachments/assets/8d0328fd-e990-4e86-a6c1-43f27d21ab5e" width="480" height="480">
 <img src="https://github.com/user-attachments/assets/d0144d01-cbd4-46f9-881d-43404ef13bfd" width="480" height="480">
 
 ### YOLOv8 Results
