@@ -57,13 +57,23 @@ The data is simply structured in a different way while running our sequential CN
 ### YOLO-NAS S Results
 - High confidence scores across various gestures with a recall rate of 1.0 and mAP50 of 0.997.
 - Minimal gap between training and validation loss, indicating an ideal scenario.
+  <img src="https://github.com/user-attachments/assets/003a2a9b-972b-4438-9c81-277990257054" width="480" height="480">
+<img src="https://github.com/user-attachments/assets/c70f3d62-11ba-4867-927c-eb7a473628b9" width="480" height="480">
+<img src="https://github.com/user-attachments/assets/e02c98a2-01c1-4435-aa2b-7e24f30b88aa" width="480" height="480">
+
 
 ### RT-DETR Results
 - mAP50 value of 0.94.
 - Higher false positives for "Water" and "Thank You" classes compared to other classes.
+<img src="https://github.com/user-attachments/assets/813aed5f-60e5-4889-8f69-abc7de7431ca" width="480" height="480">
+<img src="https://github.com/user-attachments/assets/8d0328fd-e990-4e86-a6c1-43f27d21ab5e" width="480" height="480">
+<img src="https://github.com/user-attachments/assets/3a7b7d0e-fc08-4e59-beaa-fb6553cc016a" width="480" height="480">
+<img src="https://github.com/user-attachments/assets/d0144d01-cbd4-46f9-881d-43404ef13bfd" width="480" height="480">
 
 ### YOLOv8 Results
 - YOLO-NAS outperformed the other models, showing a consistent increase in mAP50, in contrast to the more unstable performance of RT-DETR and YOLOv8.
+<img src="https://github.com/user-attachments/assets/13d9ca4d-13f4-4c39-b80c-c75bb9598d4c" width="480" height="480">
+<img src="https://github.com/user-attachments/assets/6d0efc7d-5fa7-44a3-9fc0-2e5af5aa2acd" width="480" height="480">
 
 ### CNN Results
 - The sequential CNN model frequently misclassified test images with all five fingers as "Hello," indicating a need for further experimentation and fine-tuning.
