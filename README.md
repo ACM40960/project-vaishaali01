@@ -12,6 +12,7 @@ This project focuses on the detection of Irish Sign Language (ISL) gestures usin
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LrL-Mh7U7eu4z4q6JKNw1FyW-pReNe_A?usp=sharing)
 
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Lpq5omFG8CKijPO9cJHYtq6qexHtkmwF?authuser=1#scrollTo=WSjsc5OKWK7o)
 ## Table of Contents
 - [Introduction](#introduction)
 - [Methodology](#methodology)
@@ -57,7 +58,7 @@ The data is simply structured in a different way while running our sequential CN
 ### YOLO-NAS S Results
 - High confidence scores across various gestures with a recall rate of 1.0 and mAP50 of 0.997.
 - Minimal gap between training and validation loss, indicating an ideal scenario.
-  <img src="https://github.com/user-attachments/assets/003a2a9b-972b-4438-9c81-277990257054" width="480" height="480">
+<img src="https://github.com/user-attachments/assets/003a2a9b-972b-4438-9c81-277990257054" width="480" height="480">
 <img src="https://github.com/user-attachments/assets/c70f3d62-11ba-4867-927c-eb7a473628b9" width="480" height="480">
 <img src="https://github.com/user-attachments/assets/e02c98a2-01c1-4435-aa2b-7e24f30b88aa" width="480" height="480">
 
