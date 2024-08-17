@@ -41,6 +41,10 @@ By comparing these models to a standard sequential CNN and utilizing a custom da
 
 **Dataset Access:** You can download the full dataset from the following link: [ISL Gesture Dataset](https://drive.google.com/drive/folders/1kgJX1HR1SkKsPgVGyOyxmCKWIvxuGyyA?usp=sharing).
 
+
+The data is simply structured in a different way while running our sequential CNN model, You can download the full dataset for it from the following link: 
+[ISL Gesture Dataset](https://drive.google.com/drive/folders/11OYto-wj4u9cKsZr5w2uzysLxdn9NwKN?usp=sharing).
+
 ### Model Selection
 
 - **YOLO-NAS (S sized):** Selected for its high accuracy and remarkable inference speed. Its quantization-aware architecture ensures efficient performance even in resource-constrained environments.
