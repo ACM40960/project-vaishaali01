@@ -42,6 +42,9 @@ By comparing these models to a standard sequential CNN and utilizing a custom da
   - 282 images for training,
   - 138 images for validation,
   - 25 images for testing.
+  
+So overall images and annotations combined we have close to <b>1000</b> files.
+
 - **Data Augmentation:** Various data augmentation techniques were applied during training, including random rotations, flips, scaling, and color changes.
 
 **Dataset Access:** You can download the full dataset from the following link: [ISL Gesture Dataset](https://drive.google.com/drive/folders/1kgJX1HR1SkKsPgVGyOyxmCKWIvxuGyyA?usp=sharing).
@@ -52,10 +55,11 @@ The data is simply structured in a different way while running our sequential CN
 
 ### Model Selection
 
-- **YOLO-NAS (S sized):** Selected for its high accuracy and remarkable inference speed. Its quantization-aware architecture ensures efficient performance even in resource-constrained environments.
-- **RT-DETR:** Chosen to explore whether DETRs can surpass advanced YOLO detectors by eliminating the delay introduced by Non-Maximum Suppression (NMS).
-- **YOLOv8:** Experimented with due to its state-of-the-art design and suitability for real-time applications.
-- **CNN:** A standard sequential CNN was also tested to serve as a baseline for performance comparison.
+- **YOLO-NAS (S sized):** YOLO-NAS (S sized) model, developed using advanced Neural Architecture Search (NAS) technology, is chosen due to its high accuracy and remarkable inference speed. It outperforms previous YOLO versions like YOLOv8. Its quantization-aware architecture ensures efficient performance even in resource-constrained environments, making it ideal for specialized applications like ISL detection.
+- **RT-DETR:** RT-DETR is a strong contender against YOLO models, particularly since YOLO models’ accuracy can be hindered by the use of Non-Maximum Suppression (NMS). RT-DETR outperforms the latest YOLOv8 model, prompting us to investigate whether DETRs can surpass the advanced YOLO detectors in both speed and accuracy by eliminating the delay introduced by NMS.
+- **YOLOv8:** YOLOv8, with its advanced neural network architecture, is particularly well-suited for cases like ours, where both accuracy and speed are critical for effective sign language detection. Its design incorporates the latest innovations in object detection, making it a strong candidate for real-time applications, which is why we chose to experiment with it alongside other state-of-the-art models.
+
+- **CNN:** Also experimented with a standard sequential CNN to evaluate its performance comparatively.
 
 ## Results and Analysis
 
