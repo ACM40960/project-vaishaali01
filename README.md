@@ -69,16 +69,16 @@ The data is simply structured in a different way while running our sequential CN
 ## Results and Analysis
 
 ### YOLO-NAS S Results
-- High confidence scores across various gestures with a recall rate of 1.0 and mAP50 of 0.997.
-- Minimal gap between training and validation loss, indicating an ideal scenario.
+- The YOLO-NAS model demonstrated exceptional performance, achieving high confidence scores across various gestures. Its high recall rate of 1.0 and mAP50 of 0.997 underscore its effective gesture detection capabilities.
+- Notably, the minimal gap between training and validation loss portrays an ideal case scenario result.
 <img src="https://github.com/user-attachments/assets/003a2a9b-972b-4438-9c81-277990257054" width="480" height="480">
 <img src="https://github.com/user-attachments/assets/c70f3d62-11ba-4867-927c-eb7a473628b9" width="480" height="480">
 <img src="https://github.com/user-attachments/assets/e02c98a2-01c1-4435-aa2b-7e24f30b88aa" width="480" height="480">
 
 
 ### RT-DETR Results
-- mAP50 value of 0.94.
-- Higher false positives for "Water" and "Thank You" classes compared to other classes.
+- The mAP50 value for the RT-DETR model is 0.94. The confusion matrix points out that for “Water” and “ThankYou” classes the false positives are quite high compared to other classes.
+- The training and validation loss portrayed a gradual dip in values.
 <img src="https://github.com/user-attachments/assets/7eaa7887-4c04-439b-a0f9-2e9e13d795da" width="480" height="480">
 <img src="https://github.com/user-attachments/assets/0159d174-e85a-4db1-932e-546366259437" width="480" height="480">
 <img src="https://github.com/user-attachments/assets/813aed5f-60e5-4889-8f69-abc7de7431ca" width="480" height="480">
@@ -91,7 +91,10 @@ The data is simply structured in a different way while running our sequential CN
 <img src="https://github.com/user-attachments/assets/6d0efc7d-5fa7-44a3-9fc0-2e5af5aa2acd" width="480" height="480">
 
 ### CNN Results
-- The sequential CNN model frequently misclassified test images with all five fingers as "Hello," indicating a need for further experimentation and fine-tuning.
+- In contrast, the sequential CNN model showed a tendency to overfit, frequently clas- sifying test images with visible fingers as "Hello," which suggests a need for more experimentation with the architecture and fine-tuning to enhance the model’s ability to generalize across different gestures.
+
+
+Overall, YOLO-NAS outperforms the other models, as evidenced by its highest con- fidence scores for test image predictions and a consistently increasing mAP50 graph, in contrast to the more unstable performance of RT-DETR and YOLOv8, which exhibited fluctuating mAP scores across epochs.
 
 ## Future Work
 
