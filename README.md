@@ -62,16 +62,20 @@ The data is simply structured in a different way while running our sequential CN
 
 ## YOLO-NAS: Advanced Architecture for Superior Object Detection
 
-**YOLO-NAS** is a next-generation object detection model developed by Deci AI, built upon the foundational YOLO series with significant enhancements. At its core, YOLO-NAS leverages **Neural Architecture Search (NAS)** technology through Deci's proprietary **AutoNAC** engine. This technology optimizes the model's architecture to achieve the best balance between accuracy and latency, making YOLO-NAS a state-of-the-art (SOTA) performer in real-time object detection.
-<img src=" ">
+**YOLO-NAS** is a next-generation object detection model developed by Deci AI, built upon the foundational YOLO series with significant enhancements. 
+![Evolution of YOLO: A Foundational Object Detection Model](https://blog.paperspace.com/content/images/2024/01/Screenshot-2024-01-23-at-4.07.39-PM.png)
+
+At its core, YOLO-NAS leverages **Neural Architecture Search (NAS)** technology through Deci's proprietary **AutoNAC** engine. This technology optimizes the model's architecture to achieve the best balance between accuracy and latency, making YOLO-NAS a state-of-the-art (SOTA) performer in real-time object detection.
+
 One of the key innovations in YOLO-NAS is the use of **quantization-aware blocks** within the architecture. These blocks allow the model to support INT8 quantization, which converts neural network parameters from floating-point values to integer values, leading to greater efficiency with minimal loss in accuracy. This results in an exceptionally robust model that maintains high precision even when optimized for lower computational requirements.
-<img src=" ">
+
+![YOLO-NAS Architecture](https://www.researchgate.net/profile/Adem-Korkmaz/publication/382225120/figure/fig3/AS:11431281260167268@1720878485653/YOLO-NAS-architecture.ppm)
+
 ## Unparalleled Performance with AutoNAC Technology
 
 YOLO-NAS is designed to outperform its predecessors by addressing common limitations such as insufficient quantization support and suboptimal accuracy-latency trade-offs. The **AutoNAC** technology plays a crucial role in this, enabling the model to be pre-trained on large-scale datasets like COCO and Objects365, and further refined through knowledge distillation and Distribution Focal Loss (DFL). This approach not only enhances the model's performance but also ensures it remains highly effective in diverse production environments.
 
 With a superior mean average precision (mAP) YOLO-NAS surpasses previous models in the YOLO series, offering a perfect blend of speed and accuracy. Whether you’re working on large-scale object detection tasks or need a model optimized for edge devices, YOLO-NAS delivers cutting-edge performance that sets a new benchmark in the field of computer vision.
-
 
 - **YOLO-NAS (S sized):** YOLO-NAS (S sized) model, developed using advanced Neural Architecture Search (NAS) technology, is chosen due to its high accuracy and remarkable inference speed. It outperforms previous YOLO versions like YOLOv8. Its quantization-aware architecture ensures efficient performance even in resource-constrained environments, making it ideal for specialized applications like ISL detection. 
 - **RT-DETR:** RT-DETR is a strong contender against YOLO models, particularly since YOLO models’ accuracy can be hindered by the use of Non-Maximum Suppression (NMS). RT-DETR outperforms the latest YOLOv8 model, prompting us to investigate whether DETRs can surpass the advanced YOLO detectors in both speed and accuracy by eliminating the delay introduced by NMS.
