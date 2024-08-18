@@ -60,11 +60,25 @@ The data is simply structured in a different way while running our sequential CN
 
 ### Model Selection
 
-- **YOLO-NAS (S sized):** YOLO-NAS (S sized) model, developed using advanced Neural Architecture Search (NAS) technology, is chosen due to its high accuracy and remarkable inference speed. It outperforms previous YOLO versions like YOLOv8. Its quantization-aware architecture ensures efficient performance even in resource-constrained environments, making it ideal for specialized applications like ISL detection.
+## YOLO-NAS: Advanced Architecture for Superior Object Detection
+
+**YOLO-NAS** is a next-generation object detection model developed by Deci AI, built upon the foundational YOLO series with significant enhancements. At its core, YOLO-NAS leverages **Neural Architecture Search (NAS)** technology through Deci's proprietary **AutoNAC** engine. This technology optimizes the model's architecture to achieve the best balance between accuracy and latency, making YOLO-NAS a state-of-the-art (SOTA) performer in real-time object detection.
+<img src=" ">
+One of the key innovations in YOLO-NAS is the use of **quantization-aware blocks** within the architecture. These blocks allow the model to support INT8 quantization, which converts neural network parameters from floating-point values to integer values, leading to greater efficiency with minimal loss in accuracy. This results in an exceptionally robust model that maintains high precision even when optimized for lower computational requirements.
+<img src=" ">
+## Unparalleled Performance with AutoNAC Technology
+
+YOLO-NAS is designed to outperform its predecessors by addressing common limitations such as insufficient quantization support and suboptimal accuracy-latency trade-offs. The **AutoNAC** technology plays a crucial role in this, enabling the model to be pre-trained on large-scale datasets like COCO and Objects365, and further refined through knowledge distillation and Distribution Focal Loss (DFL). This approach not only enhances the model's performance but also ensures it remains highly effective in diverse production environments.
+
+With a superior mean average precision (mAP) YOLO-NAS surpasses previous models in the YOLO series, offering a perfect blend of speed and accuracy. Whether you’re working on large-scale object detection tasks or need a model optimized for edge devices, YOLO-NAS delivers cutting-edge performance that sets a new benchmark in the field of computer vision.
+
+
+- **YOLO-NAS (S sized):** YOLO-NAS (S sized) model, developed using advanced Neural Architecture Search (NAS) technology, is chosen due to its high accuracy and remarkable inference speed. It outperforms previous YOLO versions like YOLOv8. Its quantization-aware architecture ensures efficient performance even in resource-constrained environments, making it ideal for specialized applications like ISL detection. 
 - **RT-DETR:** RT-DETR is a strong contender against YOLO models, particularly since YOLO models’ accuracy can be hindered by the use of Non-Maximum Suppression (NMS). RT-DETR outperforms the latest YOLOv8 model, prompting us to investigate whether DETRs can surpass the advanced YOLO detectors in both speed and accuracy by eliminating the delay introduced by NMS.
 - **YOLOv8:** YOLOv8, with its advanced neural network architecture, is particularly well-suited for cases like ours, where both accuracy and speed are critical for effective sign language detection. Its design incorporates the latest innovations in object detection, making it a strong candidate for real-time applications, which is why we chose to experiment with it alongside other state-of-the-art models.
 
 - **CNN:** Also experimented with a standard sequential CNN to evaluate its performance comparatively.
+
 
 ## Results and Analysis
 
@@ -91,14 +105,14 @@ The data is simply structured in a different way while running our sequential CN
 <img src="https://github.com/user-attachments/assets/6d0efc7d-5fa7-44a3-9fc0-2e5af5aa2acd" width="480" height="480">
 
 ### CNN Results
-- In contrast, the sequential CNN model showed a tendency to overfit, frequently clas- sifying test images with visible fingers as "Hello," which suggests a need for more experimentation with the architecture and fine-tuning to enhance the model’s ability to generalize across different gestures.
+- In contrast, the sequential CNN model showed a tendency to overfit, frequently classifying test images with visible fingers as "Hello," which suggests a need for more experimentation with the architecture and fine-tuning to enhance the model’s ability to generalize across different gestures.
 
 
-Overall, YOLO-NAS outperforms the other models, as evidenced by its highest con- fidence scores for test image predictions and a consistently increasing mAP50 graph, in contrast to the more unstable performance of RT-DETR and YOLOv8, which exhibited fluctuating mAP scores across epochs.
+Overall, YOLO-NAS outperforms the other models, as evidenced by its highest confidence scores for test image predictions and a consistently increasing mAP50 graph, in contrast to the more unstable performance of RT-DETR and YOLOv8, which exhibited fluctuating mAP scores across epochs.
 
 ## Future Work
 
-Future improvements to this project could include more gestures and more diverse examples, hence improving the model’s generalisation and accuracy. Increasing the dataset size and class diversity may help the system progress from simple sign lan- guage detection to a packed sign language interpreter. In addition to testing with new models and fine-tuning techniques to improve the system’s robustness and flex- ibility, deployment strategies should be taken into account to make the system us- able in real-world applications.
+Future improvements to this project could include more gestures and more diverse examples, hence improving the model’s generalisation and accuracy. Increasing the dataset size and class diversity may help the system progress from simple sign lan- guage detection to a packed sign language interpreter. In addition to testing with new models and fine-tuning techniques to improve the system’s robustness and flexibility, deployment strategies should be taken into account to make the system us- able in real-world applications.
 
 ## References
 
@@ -106,6 +120,8 @@ Future improvements to this project could include more gestures and more diverse
 2. Anusha Puchakayala et al. "American Sign Language Recognition using Deep Learning." Proceedings of the 7th International Conference on Computing Methodologies and Communication (ICCMC-2023), IEEE Xplore, 2023, ISBN: 978-1-6654-6408-6. DOI: 10.1109/ICCMC56507.2023.10084015.
 3. K. Abhinand et al. "Malayalam Sign Language Identification using Finetuned YOLOv8 and Computer Vision Techniques." arXiv, arXiv:2405.06702v1 [cs.CL], 08 May 2024. License: CC BY 4.0.
 4. A. Mishra et al. ISL recognition of emergency words using mediapipe, CNN, and LSTM, in: 2023 International Conference on Power Energy, Environment & Intelligent Control (PEEIC), IEEE, 2023, pp. 322–325.
+5. Xiangxiang Chu, Liang Li, Bo Zhang. "Make RepVGG Greater Again: A Quantization-aware Approach." arXiv preprint arXiv:2212.01593, submitted on 3 Dec 2022, last revised 11 Dec 2023. Available at: https://arxiv.org/abs/2212.01593
+6. https://blog.paperspace.com/yolo-nas/
 
 ## Lincense
 
