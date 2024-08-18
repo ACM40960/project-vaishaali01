@@ -26,11 +26,13 @@ This project focuses on the detection of Irish Sign Language (ISL) gestures usin
 - [Introduction](#introduction)
 - [Methodology](#methodology)
   - [Data Collection and Preparation](#data-collection-and-preparation)
-  - [Model Selection](#model-selection)
+  - [Model Selection Rationale](#model-selection-rationale)
+  - [Models Overview](#models-overview)
 - [Results and Analysis](#results-and-analysis)
 - [Future Work](#future-work)
 - [References](#references)
 - [License](#license)
+
 
 ## Introduction
 
