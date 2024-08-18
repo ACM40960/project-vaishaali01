@@ -72,6 +72,7 @@ At its core, YOLO-NAS leverages **Neural Architecture Search (NAS)** technology 
 One of the key innovations in YOLO-NAS is the use of **quantization-aware blocks** within the architecture. These blocks allow the model to support INT8 quantization, which converts neural network parameters from floating-point values to integer values, leading to greater efficiency with minimal loss in accuracy. This results in an exceptionally robust model that maintains high precision even when optimized for lower computational requirements.
 
 ![YOLO-NAS Architecture](https://github.com/vaishaali01/ISL-Recognition/blob/main/YOLO-NAS-architecture.png)
+**YOLO-NAS Architecture**
 
 #### Unparalleled Performance with AutoNAC Technology
 
