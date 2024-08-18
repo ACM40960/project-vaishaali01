@@ -67,7 +67,7 @@ Choosing the right model for detecting Irish Sign Language gestures required a b
 - **YOLOv8:** YOLOv8, with its advanced neural network architecture, is particularly well-suited for cases like ours, where both accuracy and speed are critical for effective sign language detection. Its design incorporates the latest innovations in object detection, making it a strong candidate for real-time applications, which is why we chose to experiment with it alongside other state-of-the-art models.
 - **CNN:** Also experimented with a standard sequential CNN to evaluate its performance comparatively.
 
-### Model Overview
+### Models Overview
 This section provides an in-depth look at each model used in our analysis :)
 
 #### YOLO-NAS: Advanced Architecture for Superior Object Detection
