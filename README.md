@@ -58,7 +58,17 @@ So overall images and annotations combined we have close to <b>1000</b> files.
 The data is simply structured in a different way while running our sequential CNN model, You can download the full dataset for it from the following link: 
 [ISL Gesture Dataset](https://drive.google.com/drive/folders/11OYto-wj4u9cKsZr5w2uzysLxdn9NwKN?usp=sharing).
 
-### Model Selection
+
+### Model Selection Rationale
+Choosing the right model for detecting Irish Sign Language gestures required a balance of accuracy, speed, and efficiency. Here’s why each model was selected:
+
+- **YOLO-NAS (S sized):** YOLO-NAS (S sized) model, developed using advanced Neural Architecture Search (NAS) technology, is chosen due to its high accuracy and remarkable inference speed. It outperforms previous YOLO versions like YOLOv8. Its quantization-aware architecture ensures efficient performance even in resource-constrained environments, making it ideal for specialized applications like ISL detection. 
+- **RT-DETR:** RT-DETR is a strong contender against YOLO models, particularly since YOLO models’ accuracy can be hindered by the use of Non-Maximum Suppression (NMS). RT-DETR outperforms the latest YOLOv8 model, prompting us to investigate whether DETRs can surpass the advanced YOLO detectors in both speed and accuracy by eliminating the delay introduced by NMS.
+- **YOLOv8:** YOLOv8, with its advanced neural network architecture, is particularly well-suited for cases like ours, where both accuracy and speed are critical for effective sign language detection. Its design incorporates the latest innovations in object detection, making it a strong candidate for real-time applications, which is why we chose to experiment with it alongside other state-of-the-art models.
+- **CNN:** Also experimented with a standard sequential CNN to evaluate its performance comparatively.
+
+### Model Overview
+This section provides an in-depth look at each model used in our analysis :)
 
 #### YOLO-NAS: Advanced Architecture for Superior Object Detection
 
@@ -72,6 +82,7 @@ At its core, YOLO-NAS leverages **Neural Architecture Search (NAS)** technology 
 One of the key innovations in YOLO-NAS is the use of **quantization-aware blocks** within the architecture. These blocks allow the model to support INT8 quantization, which converts neural network parameters from floating-point values to integer values, leading to greater efficiency with minimal loss in accuracy. This results in an exceptionally robust model that maintains high precision even when optimized for lower computational requirements.
 
 ![YOLO-NAS Architecture](https://github.com/vaishaali01/ISL-Recognition/blob/main/YOLO-NAS-architecture.png)
+
 **YOLO-NAS Architecture**
 
 #### Unparalleled Performance with AutoNAC Technology
@@ -79,13 +90,6 @@ One of the key innovations in YOLO-NAS is the use of **quantization-aware blocks
 YOLO-NAS is designed to outperform its predecessors by addressing common limitations such as insufficient quantization support and suboptimal accuracy-latency trade-offs. The **AutoNAC** technology plays a crucial role in this, enabling the model to be pre-trained on large-scale datasets like COCO and Objects365, and further refined through knowledge distillation and Distribution Focal Loss (DFL). This approach not only enhances the model's performance but also ensures it remains highly effective in diverse production environments.
 
 With a superior mean average precision (mAP) YOLO-NAS surpasses previous models in the YOLO series, offering a perfect blend of speed and accuracy. Whether you’re working on large-scale object detection tasks or need a model optimized for edge devices, YOLO-NAS delivers cutting-edge performance that sets a new benchmark in the field of computer vision.
-
-- **YOLO-NAS (S sized):** YOLO-NAS (S sized) model, developed using advanced Neural Architecture Search (NAS) technology, is chosen due to its high accuracy and remarkable inference speed. It outperforms previous YOLO versions like YOLOv8. Its quantization-aware architecture ensures efficient performance even in resource-constrained environments, making it ideal for specialized applications like ISL detection. 
-- **RT-DETR:** RT-DETR is a strong contender against YOLO models, particularly since YOLO models’ accuracy can be hindered by the use of Non-Maximum Suppression (NMS). RT-DETR outperforms the latest YOLOv8 model, prompting us to investigate whether DETRs can surpass the advanced YOLO detectors in both speed and accuracy by eliminating the delay introduced by NMS.
-- **YOLOv8:** YOLOv8, with its advanced neural network architecture, is particularly well-suited for cases like ours, where both accuracy and speed are critical for effective sign language detection. Its design incorporates the latest innovations in object detection, making it a strong candidate for real-time applications, which is why we chose to experiment with it alongside other state-of-the-art models.
-
-- **CNN:** Also experimented with a standard sequential CNN to evaluate its performance comparatively.
-
 
 ## Results and Analysis
 
