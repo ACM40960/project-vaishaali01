@@ -6,15 +6,20 @@ School of Mathematics and Statistics, University College Dublin
 
 ## Abstract
 
-This project focuses on the detection of Irish Sign Language (ISL) gestures using advanced transfer learning-based object detection models. The study utilized a custom dataset, three transfer learning models (YOLOv8, YOLO-NAS, and RT-DETR), and a standard sequential CNN for comparative analysis. Key aspects of this evaluation include data augmentation, hyperparameter tuning, and performance metrics like mAP50. Among these, YOLO-NAS demonstrated superior accuracy and consistency, marking a significant step forward in ISL recognition technology.
+This project focuses on the detection of Irish Sign Language (ISL) gestures using advanced transfer learning-based object detection models. The study utilized a custom dataset, three transfer learning models (YOLOv8, YOLO-NAS, and RT-DETR), and a standard sequential CNN for comparative analysis. Key aspects of this evaluation include data augmentation, hyperparameter tuning, and performance metrics like <b>mAP50</b>. Among these, YOLO-NAS demonstrated superior accuracy and consistency, marking a significant step forward in ISL recognition technology.
+
+**Note:** <b>It is highly recommended to run the code on Google Colab to avoid running into any type of dependency issues.</b>
+
 
 ## Open the FDS_Train_YOLONAS_Custom_Dataset_Sign_Language_Complete ipynb file in Google Colab
 
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1LrL-Mh7U7eu4z4q6JKNw1FyW-pReNe_A?usp=sharing)
 
 ## Open RealTime Detection Transformer(RT-DETR) ipynb file in Google Colab
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Lpq5omFG8CKijPO9cJHYtq6qexHtkmwF?usp=sharing)
 ## Open YOLOv8 ipynb file in Google Colab
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1c4fFqwiA4hFXdhwVJQyjsdMrl0Jsx8BT?usp=sharing)
 
 ## Table of Contents
