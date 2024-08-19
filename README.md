@@ -99,11 +99,13 @@ heads. The overview of RT-DETR is illustrated in below figure. Specifically, we 
 of the backbone {S3,S4,S5} into the encoder. The efficient hybrid encoder transforms multi-scale features into a
 sequence of image features through intra-scale feature interaction and cross-scale feature fusion. Subsequently, the uncertainty-minimal query selection is employed to select a fixed number of encoder features to serve as initial object queries for the decoder. Finally, the
 decoder with auxiliary prediction heads iteratively optimizes object queries to generate categories and boxes.
-### RT_DETR Architecture
+### RT-DETR Architecture
+
 <img src="https://github.com/user-attachments/assets/71902c05-0ece-417a-99bc-698c047095c5">
 
 ## YOLOv8 Architecture
 YOLOv8 model incorporates advanced components like decoupled head architecture for improved detection performance and better feature representation.
+
 <img src="https://github.com/user-attachments/assets/51b652f8-f52e-473a-aa84-3228f2effd06" width="640" height="640">
 
 ## Results and Analysis
