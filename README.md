@@ -119,6 +119,7 @@ YOLOv8 model incorporates advanced components like decoupled head architecture f
     YOLOv8 Architecture
   </p>
 </p>
+
 ## Results and Analysis
 
 ### YOLO-NAS S Results
