@@ -1,6 +1,7 @@
 <p>
   <img width="250" height ="250" src="https://github.com/user-attachments/assets/e00ed6cc-542a-4186-bbd1-317ede8e7d13">
 </p>
+
 # Exploring Advanced Transfer Learning Models for Effective Irish Sign Language Recognition
 
 **Authors:**  
@@ -101,7 +102,7 @@ YOLO-NAS is designed to outperform its predecessors by addressing common limitat
 
 With a superior mean average precision (mAP) YOLO-NAS surpasses previous models in the YOLO series, offering a perfect blend of speed and accuracy. Whether you’re working on large-scale object detection tasks or need a model optimized for edge devices, YOLO-NAS delivers cutting-edge performance that sets a new benchmark in the field of computer vision.
 
-## Real Time Detection Transformers(RT-DETR)
+#### Real Time Detection Transformers(RT-DETR)
 RT-DETR consists of a backbone, an efficient hybrid encoder, and a Transformer decoder with auxiliary prediction
 heads. The overview of RT-DETR is illustrated in below figure. Specifically, we feed the features from the last three stages
 of the backbone {S3,S4,S5} into the encoder. The efficient hybrid encoder transforms multi-scale features into a
@@ -114,7 +115,7 @@ decoder with auxiliary prediction heads iteratively optimizes object queries to 
   </p>
 </p>
 
-## YOLOv8 
+#### YOLOv8 
 YOLOv8 model incorporates advanced components like decoupled head architecture for improved detection performance and better feature representation.
 <p align="center">
   <img src="https://github.com/user-attachments/assets/51b652f8-f52e-473a-aa84-3228f2effd06" width="640" height="640">
