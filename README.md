@@ -1,5 +1,6 @@
 <p>
-  <img width="250" height ="250" src="https://github.com/user-attachments/assets/e00ed6cc-542a-4186-bbd1-317ede8e7d13">
+  <img width="250" height ="250" src="https://github.com/user-attachments/assets/57148dfd-2a29-4a19-af8c-ecfd838a2618">
+
 </p>
 
 # Exploring Advanced Transfer Learning Models for Effective Irish Sign Language Recognition
