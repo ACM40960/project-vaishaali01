@@ -8,7 +8,7 @@ School of Mathematics and Statistics, University College Dublin
 
 This project focuses on the detection of Irish Sign Language (ISL) gestures using advanced transfer learning-based object detection models. The study utilized a custom dataset, three transfer learning models (YOLOv8, YOLO-NAS, and RT-DETR), and a standard sequential CNN for comparative analysis. Key aspects of this evaluation include data augmentation, hyperparameter tuning, and performance metrics like <b>mAP50</b>. Among these, YOLO-NAS demonstrated superior accuracy and consistency, marking a significant step forward in ISL recognition technology.
 
-**Note:** <b>It is highly recommended to run the code on Google Colab to avoid running into any type of dependency issues.</b>
+**Note:** <b>It is highly recommended to run the code on Google Colab to avoid running into any type of dependency issues. Also, because you're just given viewer access, the best way to go about it would be to create a copy of the file on your drive and then run it.</b>
 
 
 ## Open the FDS_Train_YOLONAS_Custom_Dataset_Sign_Language_Complete ipynb file in Google Colab
@@ -54,7 +54,7 @@ So overall images and annotations combined we have close to <b>1000</b> files.
 
 - **Data Augmentation:** Various data augmentation techniques were applied during training, including random rotations, flips, scaling, and color changes.
 
-**Dataset Access:** You can download the full dataset from the following link: [ISL Gesture Dataset](https://drive.google.com/drive/folders/1kgJX1HR1SkKsPgVGyOyxmCKWIvxuGyyA?usp=sharing).
+**Dataset Access:** You can either create a copy/ download the full dataset from the following link: [ISL Gesture Dataset](https://drive.google.com/drive/folders/1kgJX1HR1SkKsPgVGyOyxmCKWIvxuGyyA?usp=sharing).
 
 
 The data is simply structured in a different way while running our sequential CNN model, You can download the full dataset for it from the following link: 
