@@ -76,14 +76,14 @@ This section provides an in-depth look at each model used in our analysis :)
 
 **YOLO-NAS** is a next-generation object detection model developed by Deci AI, built upon the foundational YOLO series with significant enhancements. 
 
-<img src="https://blog.paperspace.com/content/images/2024/01/Screenshot-2024-01-23-at-4.07.39-PM.png" width="480" height="480">
+<img src="https://blog.paperspace.com/content/images/2024/01/Screenshot-2024-01-23-at-4.07.39-PM.png">
 **Evolution of YOLO: A Foundational Object Detection Model**
 
 At its core, YOLO-NAS leverages **Neural Architecture Search (NAS)** technology through Deci's proprietary **AutoNAC** engine. This technology optimizes the model's architecture to achieve the best balance between accuracy and latency, making YOLO-NAS a state-of-the-art (SOTA) performer in real-time object detection.
 
 One of the key innovations in YOLO-NAS is the use of **quantization-aware blocks** within the architecture. These blocks allow the model to support INT8 quantization, which converts neural network parameters from floating-point values to integer values, leading to greater efficiency with minimal loss in accuracy. This results in an exceptionally robust model that maintains high precision even when optimized for lower computational requirements.
 
-![YOLO-NAS Architecture](https://github.com/vaishaalik/ISL-Recognition/blob/main/YOLO-NAS-architecture.png)
+<img src="https://github.com/vaishaalik/ISL-Recognition/blob/main/YOLO-NAS-architecture.png" width="640" height="640">
 
 **YOLO-NAS Architecture**
 
@@ -103,7 +103,7 @@ decoder with auxiliary prediction heads iteratively optimizes object queries to 
 <img src="https://github.com/user-attachments/assets/71902c05-0ece-417a-99bc-698c047095c5">
 
 ## YOLOv8 Architecture
-<img src="https://github.com/user-attachments/assets/51b652f8-f52e-473a-aa84-3228f2effd06">
+<img src="https://github.com/user-attachments/assets/51b652f8-f52e-473a-aa84-3228f2effd06" width="640" height="640">
 
 ## Results and Analysis
 
@@ -148,7 +148,7 @@ Future improvements to this project could include more gestures and more diverse
 5. Xiangxiang Chu, Liang Li, Bo Zhang. "Make RepVGG Greater Again: A Quantization-aware Approach." arXiv preprint arXiv:2212.01593, submitted on 3 Dec 2022, last revised 11 Dec 2023. Available at: https://arxiv.org/abs/2212.01593
 6. https://blog.paperspace.com/yolo-nas/
 
-## Lincense
+## License
 
 There is no lincense to contribute to this project, however suggestions can be sent to either vakon2001@gmail.com OR minujose20@gmail.com
 
