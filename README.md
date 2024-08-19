@@ -93,7 +93,7 @@ YOLO-NAS is designed to outperform its predecessors by addressing common limitat
 
 With a superior mean average precision (mAP) YOLO-NAS surpasses previous models in the YOLO series, offering a perfect blend of speed and accuracy. Whether you’re working on large-scale object detection tasks or need a model optimized for edge devices, YOLO-NAS delivers cutting-edge performance that sets a new benchmark in the field of computer vision.
 
-
+## Real Time Detection Transformers(RT-DETR)
 RT-DETR consists of a backbone, an efficient hybrid encoder, and a Transformer decoder with auxiliary prediction
 heads. The overview of RT-DETR is illustrated in Figure 4.
 Specifically, we feed the features from the last three stages
@@ -102,8 +102,8 @@ sequence of image features through intra-scale feature interaction and cross-sca
 to select a fixed number of encoder features to serve as initial object queries for the decoder (cf. Sec. 4.3). Finally, the
 decoder with auxiliary prediction heads iteratively optimizes
 object queries to generate categories and boxes.
-
-<img src="https://github.com/user-attachments/assets/71902c05-0ece-417a-99bc-698c047095c5" width="480" height="480">
+**RT_DETR Architecture**
+<img src="https://github.com/user-attachments/assets/71902c05-0ece-417a-99bc-698c047095c5">
 
 ## Results and Analysis
 
