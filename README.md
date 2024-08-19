@@ -1,8 +1,8 @@
 # Exploring Advanced Transfer Learning Models for Effective Irish Sign Language Recognition
 <p align="right">
-  <img width="100" height ="100" src="https://github.com/user-attachments/assets/9614e6fb-665b-4152-bb85-dccb47122c53">
+  <img width="100" height ="100" src="https://github.com/user-attachments/assets/e00ed6cc-542a-4186-bbd1-317ede8e7d13">
 </p>
-  
+
 **Authors:**  
 Vaishaali Kondapalli (23200337), Minu Jose (23200724)  
 School of Mathematics and Statistics, University College Dublin
