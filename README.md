@@ -102,7 +102,7 @@ sequence of image features through intra-scale feature interaction and cross-sca
 to select a fixed number of encoder features to serve as initial object queries for the decoder (cf. Sec. 4.3). Finally, the
 decoder with auxiliary prediction heads iteratively optimizes
 object queries to generate categories and boxes.
-<img width="480" height="480 alt="rtdetr archi" src="https://github.com/user-attachments/assets/71902c05-0ece-417a-99bc-698c047095c5">
+<img src="https://github.com/user-attachments/assets/71902c05-0ece-417a-99bc-698c047095c5" width="480" height="480>
 
 ## Results and Analysis
 
