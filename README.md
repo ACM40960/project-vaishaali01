@@ -87,7 +87,9 @@ One of the key innovations in YOLO-NAS is the use of **quantization-aware blocks
 
 <p align="center">
   <img src="https://github.com/vaishaalik/ISL-Recognition/blob/main/YOLO-NAS-architecture.png" width="640" height="640">
-  YOLO-NAS Architecture
+  <p>
+    YOLO-NAS Architecture
+  </p>
 </p>
 
 #### Unparalleled Performance with AutoNAC Technology
