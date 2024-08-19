@@ -2,6 +2,7 @@
 <p align="right">
   <img width="100" height ="100" src="https://github.com/user-attachments/assets/9614e6fb-665b-4152-bb85-dccb47122c53">
 <\p>
+  
 **Authors:**  
 Vaishaali Kondapalli (23200337), Minu Jose (23200724)  
 School of Mathematics and Statistics, University College Dublin
