@@ -1,13 +1,13 @@
+<p>
+  <img width="250" height ="250" src="https://github.com/user-attachments/assets/e00ed6cc-542a-4186-bbd1-317ede8e7d13">
+</p>
 # Exploring Advanced Transfer Learning Models for Effective Irish Sign Language Recognition
-
-  <img width="200" height ="200" src="https://github.com/user-attachments/assets/e00ed6cc-542a-4186-bbd1-317ede8e7d13">{: style="float: right"}
 
 **Authors:**  
 Vaishaali Kondapalli (23200337), Minu Jose (23200724)  
 School of Mathematics and Statistics, University College Dublin
 
 ## Abstract
-
 
 This project focuses on the detection of Irish Sign Language (ISL) gestures using advanced transfer learning-based object detection models. The study utilized a custom dataset, three transfer learning models (YOLOv8, YOLO-NAS, and RT-DETR), and a standard sequential CNN for comparative analysis. Key aspects of this evaluation include data augmentation, hyperparameter tuning, and performance metrics like <b>mAP50</b>. Among these, YOLO-NAS demonstrated superior accuracy and consistency, marking a significant step forward in ISL recognition technology.
 
