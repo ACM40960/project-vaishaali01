@@ -76,7 +76,7 @@ This section provides an in-depth look at each model used in our analysis :)
 
 **YOLO-NAS** is a next-generation object detection model developed by Deci AI, built upon the foundational YOLO series with significant enhancements. 
 
-![Evolution of YOLO: A Foundational Object Detection Model](https://blog.paperspace.com/content/images/2024/01/Screenshot-2024-01-23-at-4.07.39-PM.png)
+<img src="https://blog.paperspace.com/content/images/2024/01/Screenshot-2024-01-23-at-4.07.39-PM.png" width="480" height="480">
 **Evolution of YOLO: A Foundational Object Detection Model**
 
 At its core, YOLO-NAS leverages **Neural Architecture Search (NAS)** technology through Deci's proprietary **AutoNAC** engine. This technology optimizes the model's architecture to achieve the best balance between accuracy and latency, making YOLO-NAS a state-of-the-art (SOTA) performer in real-time object detection.
