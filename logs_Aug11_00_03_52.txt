@@ -1,0 +1,188 @@
+[2024-08-11 00:02:14] INFO - super_gradients.common.crash_handler.crash_tips_setup - Crash tips is enabled. You can set your environment variable to CRASH_HANDLER=FALSE to disable it
+[2024-08-11 00:02:22] DEBUG - tensorflow - Falling back to TensorFlow client; we recommended you install the Cloud TPU client directly with pip install cloud-tpu-client.
+[2024-08-11 00:02:22] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2024-08-11 00:02:22] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2024-08-11 00:02:22] DEBUG - h5py._conv - Creating converter from 7 to 5
+[2024-08-11 00:02:22] DEBUG - h5py._conv - Creating converter from 5 to 7
+[2024-08-11 00:02:22] DEBUG - jax._src.path - etils.epath found. Using etils.epath for file I/O.
+[2024-08-11 00:02:23] INFO - numexpr.utils - NumExpr defaulting to 2 threads.
+[2024-08-11 00:02:24] DEBUG - super_gradients.common.sg_loggers.clearml_sg_logger - Failed to import clearml
+[2024-08-11 00:02:25] DEBUG - hydra.core.utils - Setting JobRuntime:name=UNKNOWN_NAME
+[2024-08-11 00:02:25] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-08-11 00:02:25] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-08-11 00:03:19] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-08-11 00:03:19] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 1 images are note associated to any label file
+[2024-08-11 00:03:19] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - As a consequence, 282/283 images and 282/282 label files will be used.
+[2024-08-11 00:03:19] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2024-08-11 00:03:22] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-08-11 00:03:22] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2024-08-11 00:03:24] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-08-11 00:03:24] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - 1 images are note associated to any label file
+[2024-08-11 00:03:24] WARNING - super_gradients.training.datasets.detection_datasets.yolo_format_detection - As a consequence, 282/283 images and 282/282 label files will be used.
+[2024-08-11 00:03:24] INFO - super_gradients.training.datasets.detection_datasets.detection_dataset - Dataset Initialization in progress. `cache_annotations=True` causes the process to take longer due to full dataset indexing.
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0.
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-BoldItalic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerifDisplay.ttf', name='DejaVu Serif Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmss10.ttf', name='cmss10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmr10.ttf', name='cmr10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 0.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmex10.ttf', name='cmex10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymBol.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBolIta.ttf', name='STIXGeneral', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmtt10.ttf', name='cmtt10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Bold.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymBol.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymBol.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-BoldOblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Bold.ttf', name='DejaVu Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 0.33499999999999996
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUni.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono-Oblique.ttf', name='DejaVu Sans Mono', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmsy10.ttf', name='cmsy10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmb10.ttf', name='cmb10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansMono.ttf', name='DejaVu Sans Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-Oblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=400, stretch='normal', size='scalable')) = 1.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFiveSymReg.ttf', name='STIXSizeFiveSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSansDisplay.ttf', name='DejaVu Sans Display', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizFourSymReg.ttf', name='STIXSizeFourSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralBol.ttf', name='STIXGeneral', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBol.ttf', name='STIXNonUnicode', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizThreeSymReg.ttf', name='STIXSizeThreeSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymBol.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizTwoSymReg.ttf', name='STIXSizeTwoSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXSizOneSymReg.ttf', name='STIXSizeOneSym', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/cmmi10.ttf', name='cmmi10', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans-BoldOblique.ttf', name='DejaVu Sans', style='oblique', variant='normal', weight=700, stretch='normal', size='scalable')) = 1.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Italic.ttf', name='DejaVu Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniBolIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneralItalic.ttf', name='STIXGeneral', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSerif-Bold.ttf', name='DejaVu Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXNonUniIta.ttf', name='STIXNonUnicode', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/STIXGeneral.ttf', name='STIXGeneral', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-BoldItalic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Bold.ttf', name='Liberation Serif', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-BoldItalic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Regular.ttf', name='Liberation Sans Narrow', style='normal', variant='normal', weight=400, stretch='condensed', size='scalable')) = 10.25
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-BoldItalic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=700, stretch='normal', size='scalable')) = 11.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Italic.ttf', name='Liberation Serif', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSerif-Regular.ttf', name='Liberation Serif', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Italic.ttf', name='Liberation Mono', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-BoldItalic.ttf', name='Liberation Sans Narrow', style='italic', variant='normal', weight=700, stretch='condensed', size='scalable')) = 11.535
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Bold.ttf', name='Liberation Sans Narrow', style='normal', variant='normal', weight=700, stretch='condensed', size='scalable')) = 10.535
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSansNarrow-Italic.ttf', name='Liberation Sans Narrow', style='italic', variant='normal', weight=400, stretch='condensed', size='scalable')) = 11.25
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf', name='Liberation Sans', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Bold.ttf', name='Liberation Mono', style='normal', variant='normal', weight=700, stretch='normal', size='scalable')) = 10.335
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationMono-Regular.ttf', name='Liberation Mono', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Regular.ttf', name='Liberation Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/humor-sans/Humor-Sans.ttf', name='Humor Sans', style='normal', variant='normal', weight=400, stretch='normal', size='scalable')) = 10.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: score(FontEntry(fname='/usr/share/fonts/truetype/liberation/LiberationSans-Italic.ttf', name='Liberation Sans', style='italic', variant='normal', weight=400, stretch='normal', size='scalable')) = 11.05
+[2024-08-11 00:03:35] DEBUG - matplotlib.font_manager - findfont: Matching sans\-serif:style=normal:variant=normal:weight=normal:stretch=normal:size=10.0 to DejaVu Sans ('/usr/local/lib/python3.10/dist-packages/matplotlib/mpl-data/fonts/ttf/DejaVuSans.ttf') with score of 0.050000.
+[2024-08-11 00:03:44] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-08-11 00:03:45] WARNING - super_gradients.training.utils.checkpoint_utils - :warning: The pre-trained models provided by SuperGradients may have their own licenses or terms and conditions derived from the dataset used for pre-training.
+ It is your responsibility to determine whether you have permission to use the models for your use case.
+ The model you have requested was pre-trained on the coco dataset, published under the following terms: https://cocodataset.org/#termsofuse
+[2024-08-11 00:03:45] INFO - super_gradients.training.utils.checkpoint_utils - License Notification: YOLO-NAS pre-trained weights are subjected to the specific license terms and conditions detailed in 
+https://github.com/Deci-AI/super-gradients/blob/master/LICENSE.YOLONAS.md
+By downloading the pre-trained weight files you agree to comply with these terms.
+[2024-08-11 00:03:52] INFO - super_gradients.training.utils.checkpoint_utils - Successfully loaded pretrained weights for architecture yolo_nas_s
+[2024-08-11 00:03:52] DEBUG - super_gradients.training.utils.checkpoint_utils - Trying to load preprocessing params from checkpoint. Preprocessing params in checkpoint: False. Model YoloNAS_S inherit HasPredict: True
+[2024-08-11 00:03:52] INFO - super_gradients.training.sg_trainer.sg_trainer - Starting a new run with `run_id=RUN_20240811_000352_877087`
+[2024-08-11 00:03:52] INFO - super_gradients.training.sg_trainer.sg_trainer - Checkpoints directory: checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087
+[2024-08-11 00:03:52] INFO - super_gradients.training.sg_trainer.sg_trainer - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+[2024-08-11 00:04:25] INFO - super_gradients.training.utils.sg_trainer_utils - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               1          (1 available on the machine)
+    - Full dataset size:            282        (len(train_set))
+    - Batch size per GPU:           16         (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             16         (num_gpus * batch_size)
+    - Effective Batch size:         16         (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         17         (len(train_loader))
+    - Gradient updates per epoch:   17         (len(train_loader) / batch_accumulate)
+    - Model: YoloNAS_S  (19.02M parameters, 19.02M optimized)
+    - Learning Rates and Weight Decays:
+      - default: (19.02M parameters). LR: 0.0005 (19.02M parameters) WD: 0.0, (42.15K parameters), WD: 0.0001, (18.98M parameters)
+
+[2024-08-11 00:06:04] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:06:04] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 7.00282325851731e-05
+[2024-08-11 00:07:35] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:07:35] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.00037543484359048307
+[2024-08-11 00:09:06] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:09:06] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.00041440920904278755
+[2024-08-11 00:10:36] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:10:36] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.023979654535651207
+[2024-08-11 00:12:08] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:12:08] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.18716192245483398
+[2024-08-11 00:13:40] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:13:40] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.3039727807044983
+[2024-08-11 00:16:51] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:16:51] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.3534071743488312
+[2024-08-11 00:18:26] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:18:26] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.5267636775970459
+[2024-08-11 00:20:01] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:20:01] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.575543999671936
+[2024-08-11 00:21:38] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:21:38] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6306446194648743
+[2024-08-11 00:23:15] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:23:15] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.6512414813041687
+[2024-08-11 00:24:50] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:24:50] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.7754740715026855
+[2024-08-11 00:26:27] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:26:27] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8039258718490601
+[2024-08-11 00:28:08] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:28:08] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8378735780715942
+[2024-08-11 00:29:43] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:29:43] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.8803485631942749
+[2024-08-11 00:31:29] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:31:29] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.9014596939086914
+[2024-08-11 00:36:38] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:36:38] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.9102896451950073
+[2024-08-11 00:41:47] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:41:47] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.9199165105819702
+[2024-08-11 00:43:29] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:43:29] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.92664635181427
+[2024-08-11 00:45:11] INFO - super_gradients.common.sg_loggers.base_sg_logger - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:45:11] INFO - super_gradients.training.sg_trainer.sg_trainer - Best checkpoint overriden: validation mAP@0.50: 0.9285672307014465
+[2024-08-11 00:45:16] INFO - super_gradients.training.sg_trainer.sg_trainer - RUNNING ADDITIONAL TEST ON THE AVERAGED MODEL...
+[2024-08-11 00:45:27] INFO - super_gradients.common.sg_loggers.base_sg_logger - [CLEANUP] - Successfully stopped system monitoring process
+[2024-08-11 00:45:27] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-08-11 00:56:43] DEBUG - hydra.core.utils - Setting JobRuntime:name=app
+[2024-08-11 00:56:45] INFO - super_gradients.training.utils.checkpoint_utils - Successfully loaded model weights from /content/checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth EMA checkpoint.
+[2024-08-11 00:56:45] DEBUG - super_gradients.training.utils.checkpoint_utils - Trying to load preprocessing params from checkpoint. Preprocessing params in checkpoint: True. Model YoloNAS_S inherit HasPredict: True
+[2024-08-11 00:56:45] DEBUG - super_gradients.training.utils.checkpoint_utils - Successfully loaded preprocessing params from checkpoint {'class_names': ['Hello', 'Please', 'ThankYou', 'Help', 'PhoneNumber', 'Sorry', 'Water'], 'image_processor': {'ComposeProcessing': {'processings': [<super_gradients.training.processing.processing.ReverseImageChannels object at 0x7c43bc31d7b0>, <super_gradients.training.processing.processing.DetectionLongestMaxSizeRescale object at 0x7c43bc31ca60>, <super_gradients.training.processing.processing.DetectionLongestMaxSizeRescale object at 0x7c43bc31cac0>, <super_gradients.training.processing.processing.DetectionBottomRightPadding object at 0x7c43bc31eec0>, <super_gradients.training.processing.processing.ImagePermute object at 0x7c43bc31e8f0>]}}, 'iou': 0.65, 'conf': 0.5}
+[2024-08-11 00:57:10] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 00:57:10] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 00:57:10] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`
+[2024-08-11 00:57:12] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 00:57:12] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 00:57:12] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`
+[2024-08-11 00:57:13] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 00:57:13] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 00:57:13] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`
+[2024-08-11 00:57:15] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 00:57:15] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 00:57:15] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`
+[2024-08-11 00:57:18] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 00:57:18] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 00:57:18] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`
+[2024-08-11 00:57:19] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 00:57:19] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 00:57:20] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`
+[2024-08-11 00:58:17] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 00:58:17] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 00:58:17] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`
+[2024-08-11 00:58:48] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 00:58:48] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 00:58:48] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`
+[2024-08-11 00:59:41] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 00:59:41] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 00:59:42] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`
+[2024-08-11 01:00:26] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 01:00:26] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 01:00:26] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`
+[2024-08-11 01:00:56] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 01:00:56] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 01:00:56] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`
+[2024-08-11 01:01:36] DEBUG - PIL.PngImagePlugin - STREAM b'IHDR' 16 13
+[2024-08-11 01:01:36] DEBUG - PIL.PngImagePlugin - STREAM b'IDAT' 41 8192
+[2024-08-11 01:01:36] INFO - super_gradients.training.pipelines.pipelines - Fusing some of the model's layers. If this takes too much memory, you can deactivate it by setting `fuse_model=False`

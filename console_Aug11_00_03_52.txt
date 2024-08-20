@@ -1,0 +1,152 @@
+============================================================
+New run started at 2024-08-11.00:02:14.321086
+sys.argv: "/usr/local/lib/python3.10/dist-packages/colab_kernel_launcher.py -f /root/.local/share/jupyter/runtime/kernel-63f18277-1424-4cda-89c6-d39e23c69cf4.json"
+============================================================
+The console stream is logged into /root/sg_logs/console.log
+
+Indexing dataset annotations:   0%|          | 0/282 [00:00<?, ?it/s]
+Indexing dataset annotations:   1%|▏         | 4/282 [00:00<00:54,  5.12it/s]
+Indexing dataset annotations:   5%|▍         | 13/282 [00:00<00:14, 18.15it/s]
+Indexing dataset annotations:   8%|▊         | 23/282 [00:00<00:07, 32.71it/s]
+Indexing dataset annotations:  14%|█▍        | 40/282 [00:01<00:04, 60.20it/s]
+Indexing dataset annotations:  18%|█▊        | 52/282 [00:01<00:03, 70.94it/s]
+Indexing dataset annotations:  25%|██▍       | 70/282 [00:01<00:02, 96.53it/s]
+Indexing dataset annotations:  31%|███       | 87/282 [00:01<00:01, 110.98it/s]
+Indexing dataset annotations:  37%|███▋      | 104/282 [00:01<00:01, 124.91it/s]
+Indexing dataset annotations:  42%|████▏     | 119/282 [00:01<00:01, 123.78it/s]
+Indexing dataset annotations:  47%|████▋     | 133/282 [00:01<00:01, 118.17it/s]
+Indexing dataset annotations:  53%|█████▎    | 149/282 [00:01<00:01, 128.71it/s]
+Indexing dataset annotations:  58%|█████▊    | 163/282 [00:01<00:00, 131.09it/s]
+Indexing dataset annotations:  65%|██████▍   | 182/282 [00:02<00:00, 144.63it/s]
+Indexing dataset annotations:  70%|██████▉   | 197/282 [00:02<00:00, 146.12it/s]
+Indexing dataset annotations:  77%|███████▋  | 217/282 [00:02<00:00, 158.62it/s]
+Indexing dataset annotations:  83%|████████▎ | 234/282 [00:02<00:00, 151.77it/s]
+Indexing dataset annotations:  89%|████████▊ | 250/282 [00:02<00:00, 150.52it/s]
+Indexing dataset annotations:  94%|█████████▍| 266/282 [00:02<00:00, 117.11it/s]
+Indexing dataset annotations:  99%|█████████▉| 279/282 [00:02<00:00, 119.85it/s]
+Indexing dataset annotations: 100%|██████████| 282/282 [00:02<00:00, 98.47it/s] 
+
+Indexing dataset annotations:   0%|          | 0/138 [00:00<?, ?it/s]
+Indexing dataset annotations:   1%|▏         | 2/138 [00:00<00:12, 10.91it/s]
+Indexing dataset annotations:   3%|▎         | 4/138 [00:00<00:09, 13.41it/s]
+Indexing dataset annotations:   9%|▉         | 13/138 [00:00<00:03, 39.75it/s]
+Indexing dataset annotations:  14%|█▍        | 20/138 [00:00<00:02, 49.63it/s]
+Indexing dataset annotations:  21%|██        | 29/138 [00:00<00:01, 61.94it/s]
+Indexing dataset annotations:  29%|██▉       | 40/138 [00:00<00:01, 75.94it/s]
+Indexing dataset annotations:  39%|███▉      | 54/138 [00:00<00:00, 94.27it/s]
+Indexing dataset annotations:  51%|█████     | 70/138 [00:00<00:00, 113.37it/s]
+Indexing dataset annotations:  63%|██████▎   | 87/138 [00:01<00:00, 128.86it/s]
+Indexing dataset annotations:  73%|███████▎  | 101/138 [00:01<00:00, 124.08it/s]
+Indexing dataset annotations:  84%|████████▍ | 116/138 [00:01<00:00, 130.55it/s]
+Indexing dataset annotations:  94%|█████████▍| 130/138 [00:01<00:00, 125.85it/s]
+Indexing dataset annotations: 100%|██████████| 138/138 [00:01<00:00, 95.58it/s] 
+
+Indexing dataset annotations:   0%|          | 0/282 [00:00<?, ?it/s]
+Indexing dataset annotations:   4%|▍         | 12/282 [00:00<00:02, 115.86it/s]
+Indexing dataset annotations:   9%|▊         | 24/282 [00:00<00:02, 104.42it/s]
+Indexing dataset annotations:  15%|█▍        | 41/282 [00:00<00:01, 131.17it/s]
+Indexing dataset annotations:  20%|█▉        | 55/282 [00:00<00:01, 127.14it/s]
+Indexing dataset annotations:  26%|██▌       | 73/282 [00:00<00:01, 143.22it/s]
+Indexing dataset annotations:  33%|███▎      | 93/282 [00:00<00:01, 159.57it/s]
+Indexing dataset annotations:  41%|████      | 115/282 [00:00<00:00, 177.04it/s]
+Indexing dataset annotations:  48%|████▊     | 134/282 [00:00<00:00, 177.96it/s]
+Indexing dataset annotations:  56%|█████▌    | 157/282 [00:00<00:00, 192.11it/s]
+Indexing dataset annotations:  63%|██████▎   | 178/282 [00:01<00:00, 195.24it/s]
+Indexing dataset annotations:  71%|███████   | 199/282 [00:01<00:00, 198.89it/s]
+Indexing dataset annotations:  79%|███████▉  | 224/282 [00:01<00:00, 210.14it/s]
+Indexing dataset annotations:  87%|████████▋ | 246/282 [00:01<00:00, 208.74it/s]
+Indexing dataset annotations:  95%|█████████▍| 267/282 [00:01<00:00, 204.01it/s]
+Indexing dataset annotations: 100%|██████████| 282/282 [00:01<00:00, 181.55it/s]
+Downloading: "https://sghub.deci.ai/models/yolo_nas_s_coco.pth" to /root/.cache/torch/hub/checkpoints/yolo_nas_s_coco.pth
+
+  0%|          | 0.00/73.1M [00:00<?, ?B/s]
+  0%|          | 128k/73.1M [00:00<04:08, 308kB/s]
+  0%|          | 256k/73.1M [00:00<02:54, 437kB/s]
+  1%|          | 384k/73.1M [00:00<02:31, 505kB/s]
+  1%|          | 640k/73.1M [00:01<01:40, 758kB/s]
+  2%|▏         | 1.25M/73.1M [00:01<00:49, 1.53MB/s]
+  3%|▎         | 2.50M/73.1M [00:01<00:24, 3.02MB/s]
+  7%|▋         | 4.88M/73.1M [00:01<00:12, 5.76MB/s]
+ 12%|█▏        | 8.75M/73.1M [00:01<00:06, 9.86MB/s]
+ 17%|█▋        | 12.5M/73.1M [00:02<00:05, 12.5MB/s]
+ 22%|██▏       | 16.4M/73.1M [00:02<00:04, 14.4MB/s]
+ 28%|██▊       | 20.2M/73.1M [00:02<00:03, 15.8MB/s]
+ 33%|███▎      | 24.0M/73.1M [00:02<00:03, 16.5MB/s]
+ 38%|███▊      | 27.8M/73.1M [00:02<00:02, 17.0MB/s]
+ 43%|████▎     | 31.8M/73.1M [00:03<00:02, 17.8MB/s]
+ 49%|████▊     | 35.6M/73.1M [00:03<00:02, 18.1MB/s]
+ 54%|█████▍    | 39.5M/73.1M [00:03<00:01, 18.3MB/s]
+ 59%|█████▉    | 43.4M/73.1M [00:03<00:01, 18.5MB/s]
+ 64%|██████▍   | 47.1M/73.1M [00:04<00:01, 18.4MB/s]
+ 70%|██████▉   | 51.0M/73.1M [00:04<00:01, 18.5MB/s]
+ 75%|███████▍  | 54.8M/73.1M [00:04<00:01, 18.5MB/s]
+ 80%|███████▉  | 58.5M/73.1M [00:04<00:00, 18.4MB/s]
+ 85%|████████▌ | 62.2M/73.1M [00:04<00:00, 18.4MB/s]
+ 90%|█████████ | 66.1M/73.1M [00:05<00:00, 18.5MB/s]
+ 96%|█████████▌| 69.9M/73.1M [00:05<00:00, 18.5MB/s]
+100%|██████████| 73.1M/73.1M [00:05<00:00, 14.3MB/s]
+The console stream is now moved to checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/console_Aug11_00_03_52.txt
+[2024-08-11 00:03:52] INFO - sg_trainer.py - Using EMA with params {'decay': 0.9, 'decay_type': 'threshold'}
+/usr/local/lib/python3.10/dist-packages/super_gradients/common/registry/registry.py:72: DeprecationWarning: Object name `linear_epoch_step` is now deprecated. Please replace it with `LinearEpochLRWarmup`.
+  warnings.warn(f"Object name `{name}` is now deprecated. Please replace it with `{deprecated_names[name]}`.", DeprecationWarning)
+/usr/local/lib/python3.10/dist-packages/super_gradients/training/utils/optimizer_utils.py:108: DeprecationWarning: initialize_param_groups and update_param_groups usages are deprecated since 3.4.0, will be removed in 3.5.0 and have no effect. 
+ Assign different learning rates by passing a mapping of layer name prefixes to lr values through initial_lr training hyperparameter (i.e initial_lr={'backbone': 0.01, 'default':0.1})
+  warnings.warn(
+/usr/lib/python3.10/multiprocessing/popen_fork.py:66: RuntimeWarning: os.fork() was called. os.fork() is incompatible with multithreaded code, and JAX is multithreaded, so this will likely lead to a deadlock.
+  self.pid = os.fork()
+[2024-08-11 00:04:25] INFO - sg_trainer_utils.py - TRAINING PARAMETERS:
+    - Mode:                         Single GPU
+    - Number of GPUs:               1          (1 available on the machine)
+    - Full dataset size:            282        (len(train_set))
+    - Batch size per GPU:           16         (batch_size)
+    - Batch Accumulate:             1          (batch_accumulate)
+    - Total batch size:             16         (num_gpus * batch_size)
+    - Effective Batch size:         16         (num_gpus * batch_size * batch_accumulate)
+    - Iterations per epoch:         17         (len(train_loader))
+    - Gradient updates per epoch:   17         (len(train_loader) / batch_accumulate)
+    - Model: YoloNAS_S  (19.02M parameters, 19.02M optimized)
+    - Learning Rates and Weight Decays:
+      - default: (19.02M parameters). LR: 0.0005 (19.02M parameters) WD: 0.0, (42.15K parameters), WD: 0.0001, (18.98M parameters)
+
+[2024-08-11 00:06:04] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:06:04] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 7.00282325851731e-05
+[2024-08-11 00:07:35] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:07:35] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.00037543484359048307
+[2024-08-11 00:09:06] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:09:06] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.00041440920904278755
+[2024-08-11 00:10:36] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:10:36] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.023979654535651207
+[2024-08-11 00:12:08] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:12:08] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.18716192245483398
+[2024-08-11 00:13:40] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:13:40] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.3039727807044983
+[2024-08-11 00:16:51] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:16:51] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.3534071743488312
+[2024-08-11 00:18:26] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:18:26] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.5267636775970459
+[2024-08-11 00:20:01] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:20:01] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.575543999671936
+[2024-08-11 00:21:38] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:21:38] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.6306446194648743
+[2024-08-11 00:23:15] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:23:15] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.6512414813041687
+[2024-08-11 00:24:50] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:24:50] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.7754740715026855
+[2024-08-11 00:26:27] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:26:27] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.8039258718490601
+[2024-08-11 00:28:08] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:28:08] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.8378735780715942
+[2024-08-11 00:29:43] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:29:43] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.8803485631942749
+[2024-08-11 00:31:29] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:31:29] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.9014596939086914
+[2024-08-11 00:36:38] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:36:38] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.9102896451950073
+[2024-08-11 00:41:47] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:41:47] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.9199165105819702
+[2024-08-11 00:43:29] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:43:29] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.92664635181427
+[2024-08-11 00:45:11] INFO - base_sg_logger.py - Checkpoint saved in checkpoints2/sign_yolonas_run2/RUN_20240811_000352_877087/ckpt_best.pth
+[2024-08-11 00:45:11] INFO - sg_trainer.py - Best checkpoint overriden: validation mAP@0.50: 0.9285672307014465
+[2024-08-11 00:45:16] INFO - sg_trainer.py - RUNNING ADDITIONAL TEST ON THE AVERAGED MODEL...
+  0%|          | 0/9 [00:00<?, ?it/s]Validating epoch 25:   0%|          | 0/9 [00:00<?, ?it/s]Validating epoch 25:  11%|█         | 1/9 [00:02<00:22,  2.77s/it]Validating epoch 25:  22%|██▏       | 2/9 [00:03<00:09,  1.37s/it]Validating epoch 25:  33%|███▎      | 3/9 [00:04<00:08,  1.36s/it]Validating epoch 25:  44%|████▍     | 4/9 [00:05<00:05,  1.03s/it]Validating epoch 25:  56%|█████▌    | 5/9 [00:06<00:04,  1.18s/it]Validating epoch 25:  67%|██████▋   | 6/9 [00:07<00:03,  1.06s/it]Validating epoch 25:  78%|███████▊  | 7/9 [00:09<00:02,  1.43s/it]Validating epoch 25:  89%|████████▉ | 8/9 [00:10<00:01,  1.13s/it]Validating epoch 25: 100%|██████████| 9/9 [00:10<00:00,  1.07it/s]Validating epoch 25: 100%|██████████| 9/9 [00:10<00:00,  1.19s/it]
